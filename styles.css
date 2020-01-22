@@ -1,0 +1,43 @@
+body { 
+
+    background-color: navy;
+    color: lightsalmon;
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    color: darkblue;
+  }
+  a:hover {
+    color: orangered;
+    background-color: lightgoldenrodyellow;
+}
+a:after {
+ content: "→"
+}
+header > h1{
+    color: orangered;
+    font-weight: bolder;
+        padding: 60px;
+        text-align: center;
+        color: orangered;
+        font-size: 45px;
+      }
+
+footer > h5{
+color: white;
+padding: 20px;
+text-align: center;
+}
+table {
+    border: 1px solid lightgrey;
+  }
+  tr:nth-child(even) {background-color: black;}
+  th, td {
+    padding: 15px;
+    text-align: center;
+  }
+  tr:hover {background-color: #f5f5f5;}
+ 
